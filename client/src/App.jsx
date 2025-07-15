@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Foot from './components/Foot'
 import Login from './components/Login'
 import { Appcontext } from './context/Appcontext'
+import { ToastContainer} from 'react-toastify';
 
 
 const App = () => {
@@ -14,6 +15,8 @@ const App = () => {
   const {showLogin}= useContext(Appcontext);
   return (
     <div className='px-4 sm:px-10 md:px-14 lg:px28 min-h-screen bg-gradient-to-b from-red-100 to-blue-50'>
+
+      <ToastContainer position='bottom-right'/>
 
       <Navbar/>
       {showLogin && <Login/>}

@@ -6,7 +6,7 @@ import { Appcontext } from '../context/Appcontext'
 const Generatebutton = () => {
 
     const {user,setshowLogin} = useContext(Appcontext)
-    const navigate = useNavigate
+    const navigate = useNavigate()
 
     const onClickhandler= ()=>{
         if(user){

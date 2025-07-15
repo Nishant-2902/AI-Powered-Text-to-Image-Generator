@@ -5,7 +5,7 @@ import { Appcontext } from '../context/Appcontext'
 
 const Navbar = () => {
 
-    const {user,setshowLogin} = useContext(Appcontext)
+    const {user,setshowLogin,logout , credit} = useContext(Appcontext)
     const navigate = useNavigate()
     return (
         <div className='flex items-center justify-between py-0'>
@@ -14,13 +14,13 @@ const Navbar = () => {
             <div>
                 {user ?
                     <div className='flex items-center gap-2 sm:gap-3'>
-                        <button onClick={()=>navigate('/buycredit')} className='flex items-center gap-2 bg-blue-300 px-4 sm:px-6 py-1.5 sm:py-2 rounded-full hover:scale-105 transition-all duration-700'><img className='w-5' src={assets.credit_star} alt="" /><p className='text-xs sm:text-sm font-medium'>Credit left : 5</p></button>
-                        <p className='max-sm:hidden pl-4' >Hi! Nishant</p>
+                        <button onClick={()=>navigate('/buycredit')} className='flex items-center gap-2 bg-blue-300 px-4 sm:px-6 py-1.5 sm:py-2 rounded-full hover:scale-105 transition-all duration-700'><img className='w-5' src={assets.credit_star} alt="" /><p className='text-xs sm:text-sm font-medium'>Credit left : {credit}</p></button>
+                        <p className='max-sm:hidden pl-4' >Hi! {user.name}</p>
                         <div className='relative group'>
                             <img className='w-10 drop-shadow' src={assets.profile_icon} alt="" />
                             <div className='absolute hidden group-hover:block top-0 right-0 z-10 text-blackr rounded pt-10'>
                                 <ul className='list-none m-0 p-2 bg-white rounded-full border text-sm'>
-                                    <li className='py-0.5 px-3 cursor-pointer'>Logout</li>
+                                    <li onClick={logout} className='py-0.5 px-3 cursor-pointer'>Logout</li>
                                 </ul>
                             </div>
                         </div>
