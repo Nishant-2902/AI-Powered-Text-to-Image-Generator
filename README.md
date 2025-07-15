@@ -1,5 +1,5 @@
 # Full Stack Text to Image Generator with AI
-### **TEXT2VISION** ###
+### **App name TEXT2VISION** ###
 
 ## 🖼️ Overview
 
@@ -34,7 +34,7 @@ A Full Stack AI Application built with the ***MERN stack—MongoDB, Express, Rea
 
 - **APIs:** ClipDrop API
 
-- **Utilities:** Postman (API testing), MongoDB Compass, VS Code, Git, GitHub etc.
+- **Utilities:** Postman (API testing), MongoDB Compass, VS Code, Git, GitHu etc.
 
 ## ✨ Learning Outcomes
 
