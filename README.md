@@ -77,7 +77,7 @@ text-to-image-ai/
 
 ## 🖥️ Demo
 
-[Demo will be updated Soon]()
+[Demo video](https://youtu.be/O7X3vDc6M-k?si=R8o4EOw-OWOYBxqh)
 
 
 
