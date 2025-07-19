@@ -1,12 +1,12 @@
 # Full Stack Text to Image Generator with AI
 ### **App name TEXT2VISION** ###
 
-## 🖼️ Overview
+##  Overview
 
 
 A Full Stack AI Application built with the ***MERN stack—MongoDB, Express, React, and Node.js*** —that enables users to generate images from text prompts using AI. The app features a credit-based system with online payments, secure authentication, and cloud-based image generation using the ClipDrop API.
 
-## 🚀 Features
+##  Features
 
  - Generate stunning images from simple text input using AI
 
@@ -25,7 +25,7 @@ A Full Stack AI Application built with the ***MERN stack—MongoDB, Express, Rea
  - API integration for real-time AI image generation (ClipDrop)
  
 
- ## 🛠️ Technologies Used
+ ##  Technologies Used
  - **Frontend:** Vite, React, React Router, Tailwind CSS, Framer Motion, React Toastify, Axios
 
 - **Backend:** Node.js, Express, CORS, dotenv, Nodemon, Form-Data, JSON Web Token (JWT), bcrypt
@@ -36,7 +36,7 @@ A Full Stack AI Application built with the ***MERN stack—MongoDB, Express, Rea
 
 - **Utilities:** Postman (API testing), MongoDB Compass, VS Code, Git, GitHu etc.
 
-## ✨ Learning Outcomes
+##  Learning Outcomes
 
 - Deepened understanding of full stack development workflows (MERN stack).
 
@@ -52,7 +52,7 @@ A Full Stack AI Application built with the ***MERN stack—MongoDB, Express, Rea
 
 - Utilized state management, async actions, and API error handling in React.
 
-## 📚 Project Structure
+##  Project Structure
 ```
 text-to-image-ai/
 │
@@ -71,11 +71,11 @@ text-to-image-ai/
 └── ...
 ```
 
-## ✍️ Authors
+##  Authors
 `NISHANT SHARMA` – @Nishant-2902   
 [Linkedin](www.linkedin.com/in/nishant-sharma-29022004n)
 
-## 🖥️ Demo
+##  Demo
 
 [Demo video](https://youtu.be/O7X3vDc6M-k?si=R8o4EOw-OWOYBxqh)
 
